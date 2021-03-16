@@ -42,7 +42,7 @@ def lightning_Read_time(seconds: int) -> str:
 
     time_list.reverse()
     kirsh += ":".join(time_list)
-
+                
     return kirsh
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "SAVAGE BOY"
@@ -53,13 +53,17 @@ TG_CHANN = str(TG_CHANNEL) if TG_CHANNEL else "Not Yet😁😁"
 
 from userbot import CMD_LIST
 
-pm_caption ="🔥🔥𝐒𝐀𝐕𝐀𝐆𝐄 𝐎𝐍 𝐅𝐈𝐑𝐄🔥🔥\n\n"
-pm_caption += "𝐎𝐖𝐍𝐄𝐑            ➪  [⚡丂卂爪乇乇尺⚡](@sameer_795)\n" 
-pm_caption += "𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 ➪ 1.17.5\n"
-pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  ➪ [ᴊᴏɪɴ](https://t.me/SAVAGE_TECHY)\n"
-pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏    ➪ [ᴊᴏɪɴ](https://t.me/SAVAGE_TEAM_BOT)\n"
-pm_caption += "𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏       : [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/SAVAGE_TEAM_BOLTE)\n\n"
-pm_caption += "[ꀷꏂᖘ꒒ꂦꌩ ꌩꂦꀎꋪ ꂦꅐꈤ ꌚꍏ꒦ꍏꁅꏂ](https://github.com/sameerpanthi/SAVAGE-IS-BACK)\n"
+pm_caption = "__                   **🔥 𝐒𝐀𝐕𝐀𝐆𝐄_𝐁𝐎𝐓 🔥**  __\n\n"
+pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
+pm_caption += "✘ ΔβØỮŦ Μ¥ Ş¥ŞŦ€Μ ✘\n\n"
+pm_caption += "➾ **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍**       ➣ 𝟏.𝟏𝟕.𝟓\n"
+pm_caption += "➾ **𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏      ➣ [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/joinchat/RPrJW2IU-Uo4MGRl)\n"
+pm_caption += "➾ **𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/0KCyT0MHyAhmMmRl)\n"
+pm_caption += "➾ **𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏.  ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/qCIk-af6VW1kNDll)\n"
+pm_caption += "➾ **𝐂𝐑𝐄𝐀𝐓𝐎𝐑**        ➣ [⚡𝐒𝐀𝐌𝐄𝐄𝐑⚡](@SAMEER_795)\n" 
+                  
+pm_caption += " \n\n"
+pm_caption += "[✨ ꀷꏂᖘ꒒ꂦꌩ ꌩꂦꀎꋪ ꂦꅐꈤ ꌚꍏ꒦ꍏꁅꏂ ꌃꂦ꓄ ✨](https://github.com/sameerpanthi/SAVAGE-IS-BACK)"
 
 @borg.on(lightning_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
