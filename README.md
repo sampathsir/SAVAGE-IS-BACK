@@ -8,11 +8,11 @@ SAVAGE_BOT 🔥
 
 -------------------------------------------------
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/sameerpanthi/D3VIL_BOT?utm_source=github.com&utm_medium=referral&utm_content=sameerpanthi/D3VIL_BOT&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/sameerpanthi/SAVAGE-IS-BACK?utm_source=github.com&utm_medium=referral&utm_content=sameerpanthi/SAVAGE-IS-BACK&utm_campaign=Badge_Grade_Settings)
 [![Python 3.6](https://img.shields.io/badge/Python-3.6%20or%20newer-blue.svg)](https://www.python.org/downloads/release/python-360/)
-![GitHub repo size](https://img.shields.io/github/repo-size/sameerpanthi/D3VIL_BOT)
-[![HitCount](http://hits.dwyl.com/sameerpanthi/D3VIL_BOT.svg)](http://hits.dwyl.com/sameerpanthi/D3VIL_BOT)
-[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/D3VIL_SAMEER)
+![GitHub repo size](https://img.shields.io/github/repo-size/sameerpanthi/SAVAGE-IS-BACK)
+[![HitCount](http://hits.dwyl.com/sameerpanthi/SAVAGE-IS-BACK.svg)](http://hits.dwyl.com/sameerpanthi/SAVAGE-IS-BACK)
+[![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/SAMEER_795)
 <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
 -------------------------------------------------
 
@@ -22,7 +22,7 @@ SAVAGE_BOT 🔥
 
 
 ## STATUS OF THIS BOTS 
-<p align="left"><a href="https://github.com/sameerpanthi/D3VIL_BOT/network/members"><img src="https://img.shields.io/github/forks/sameerpanthi/SAVAGE?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/sameerpanthi/D3VIL_BOT/stargazers"><img src="https://img.shields.io/github/stars/sameerpanthi/D3VIL_BOT?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/sameerpanthi/D3VIL_BOT"></a><p align="left"><a href="https://github.com/sameerpanthi/D3VIL_BOT"><img src="https://img.shields.io/github/last-commit/sameerpanthi/D3VIL_BOT?style=plastic"></a>
+<p align="left"><a href="https://github.com/sameerpanthi/SAVAGE-IS-BACK/network/members"><img src="https://img.shields.io/github/forks/sameerpanthi/SAVAGE-IS-BACK?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/sameerpanthi/SAVAGE-IS-BACK/stargazers"><img src="https://img.shields.io/github/stars/sameerpanthi/SAVAGE-IS-BACK?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/sameerpanthi/SAVAGE-IS-BACK"></a><p align="left"><a href="https://github.com/sameerpanthi/SAVAGE-IS-BACK"><img src="https://img.shields.io/github/last-commit/sameerpanthi/SAVAGE-IS-BACK?style=plastic"></a>
 
 
 -------------------------------------------------
