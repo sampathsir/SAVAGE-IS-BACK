@@ -8,12 +8,11 @@ from userbot import ALIVE_NAME, TG_CHANNEL, TG_GRUP
 from userbot.thunderconfig import Config
 from userbot.utils import lightning_cmd
 
-LIGHTNING_ALV_IMG = os.environ.get("SAVAGE_ALV_IMG", None)
+LIGHTNING_ALV_IMG = os.environ.get("LIGHTNING_ALV_IMG", None)
 if LIGHTNING_ALV_IMG is None:
-    SAVAGE_LIGHTNING = "https://telegra.ph/file/96e24977e0e11d7a0f9af.mp4"
+    ALV_LIGHTNING = "https://telegra.ph/file/96e24977e0e11d7a0f9af.mp4"
 else:
-    SAVAGE_LIGHTNING = SAVAGE_ALV_IMG
-
+    ALV_LIGHTNING = LIGHTNING_ALV_IMG
 
 version = "4.5"
 python_version = "3.8.5"
