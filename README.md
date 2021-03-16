@@ -33,9 +33,9 @@ SAVAGE_BOT 🔥
 
 ## Join our Support Channel and Group regrading bug fixes
 
-<a href="@Savage_techy"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a>
-<a href="@SAVAGE_TEAM_USERBOT"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
-<a href="@SAVAGE_PAGALPANTI"><img src="https://img.shields.io/badge/Join-SOCIAL%20GROUP-red.svg?logo=Telegram"></a>
+<a href="https://t.me/joinchat/0KCyT0MHyAhmMmRl"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-red.svg?logo=Telegram"></a>
+<a href="https://t.me/joinchat/qCIk-af6VW1kNDll"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-red.svg?logo=Telegram"></a>
+<a href="https://t.me/joinchat/QggLZfyypAs4Zjk1"><img src="https://img.shields.io/badge/Join-SOCIAL%20GROUP-red.svg?logo=Telegram"></a>
 
 -------------------------------------------------
 
