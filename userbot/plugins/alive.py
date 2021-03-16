@@ -16,20 +16,20 @@ from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
-    PM_iMG = "https://telegra.ph/file/5db4087d9de9b738ad0fc.mp4"
+    PM_iMG = "https://telegra.ph/file/96e24977e0e11d7a0f9af.mp4"
 else:
     PM_iMG = ALIVE_PIC
 
 
 HELL_PIC = os.environ.get("HELL_PIC", None)
 if HELL_PIC is None:
-    HELL_IMG = "https://telegra.ph/file/c828d5c695b4cf95c814e.mp4"
+    HELL_IMG = "https://telegra.ph/file/96e24977e0e11d7a0f9af.mp4"
 else:
     HELL_IMG = HELL_PIC
 
 CAT_IMGE = os.environ.get("CAT_IMGE", None)
 if CAT_IMGE is None:
-    CAT_IMG = "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+    CAT_IMG = "https://telegra.ph/file/96e24977e0e11d7a0f9af.mp4"
 else:
     CAT_IMG = CAT_IMGE
 
@@ -83,19 +83,14 @@ def get_readable_time(seconds: int) -> str:
 async def amireallyalive(salive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
-        pm_caption = "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
-        pm_caption += f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
-        pm_caption += "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
-        pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-        pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-        )
-        pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-        )
-        pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
-        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)"
+        pm_caption = "🔥🔥𝐒𝐀𝐕𝐀𝐆𝐄 𝐎𝐍 𝐅𝐈𝐑𝐄🔥🔥\n"
+        pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
+        pm_caption += "𝐎𝐖𝐍𝐄𝐑             : [⚡丂卂爪乇乇尺⚡](@sameer_795)\n" 
+        pm_caption += "𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 1.17.5\n"
+        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  : [ᴊᴏɪɴ](https://t.me/SAVAGE_TECHY)\n"
+        pm_caption += "𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏    : [ᴊᴏɪɴ](https://t.me/SAVAGE_TEAM_BOT)\n"
+        pm_caption += "𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏       : [𝐒𝐀𝐕𝐀𝐆𝐄](https://t.me/SAVAGE_TEAM_BOLTE)\n\n"
+        pm_caption += "[ꀷꏂᖘ꒒ꂦꌩ ꌩꂦꀎꋪ ꂦꅐꈤ ꌚꍏ꒦ꍏꁅꏂ](https://github.com/sameerpanthi/SAVAGE-IS-BACK)\n"
         await salive.get_chat()
         await salive.delete()
         """ For .allive command, check if the bot is running.  """
