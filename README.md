@@ -50,7 +50,3 @@ TAKE STRING FROM HERE -
 [![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://repl.it/@SenseiOfficial/String-Session-1)
     
 -------------------------------------------------
-CREIDT - 
-LEGEND BOT 
-<img src="https://telegra.ph/file/1ef6764e84f7eb9e58c8d.jpg">
-
