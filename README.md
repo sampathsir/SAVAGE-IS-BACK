@@ -4,7 +4,7 @@ SAVAGE_BOT 🔥
 
 <p align="center">
 
-<img src="">
+<img src="https://telegra.ph/file/177228bdfd09ae95d34a6.jpg">
 
 -------------------------------------------------
 
