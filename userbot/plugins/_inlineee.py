@@ -184,7 +184,7 @@ async def _(event):
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 if BOT_MSG is None:
-    BOT_LIT = f"Hello Sir MySelf Black Lightning Here For  {LIGHTNINGUSER}'s Protection "
+    BOT_LIT = f"Hello Sir MySelf 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 Here For  {LIGHTNINGUSER}'s Protection "
 else:
     BOT_LIT = BOT_MSG   
 
@@ -243,7 +243,7 @@ async def inline_handler(lightning):
                     Button.url(
                 
                     "Want To Learn CMDS😅",
-                    "https://t.me/lightningsupport" ,
+                    "https://t.me/savage_team_userbot" ,
                     )
                 ], 
             ],
@@ -314,7 +314,7 @@ async def lightning_pugins_query_hndlr(lightning):
            
            lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n{CMD_HELP[light_pulu_name]}"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @lightningsupport** ".format(light_pulu_name)
+           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot** ".format(light_pulu_name)
         
         else:
             lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
@@ -330,15 +330,15 @@ async def lightning_pugins_query_hndlr(lightning):
     if light_pulu_name in CMD_LIST:
                 lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
                 for i in CMD_LIST[light_pulu_name]:
-                    lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n `{CMD_LIST[light_pulu_name]}\n`**Details**- Not Yet😅😅\n\n**Ask at @lightningsupport"
+                    lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n `{CMD_LIST[light_pulu_name]}\n`**Details**- Not Yet😅😅\n\n**Ask at @savage_team_userbot"
                     lightning_help_strin += "\n    " + i
                     lightning_help_strin += "\n"
                 
     else:
-           lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @lightningsupport"
+           lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
            lightning_is_best = lightning_help_strin 
            lightning_is_best += "\n\n**In Case Any Problem @lightningsupport** ".format(light_pulu_name)
-    lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @lightningsupport"
+    lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
     lightning_is_best = lightning_help_strin 
     lightning_is_best += "\n\n**In Case Any Problem @lightningsupport** ".format(light_pulu_name)    
     if len(lightning_is_best) >= 4096:
@@ -590,7 +590,7 @@ async def ho(event):
     # This Is Copy of Above Code. (C) @SpEcHiDe
     buttons = lightnings_menu_for_help(0, CMD_LIST, "helpme")
     ho = f"""Black Lightning Is Here With Stunning Help !\n
-In Case Any Problem @lightningsupport \nTottal Plugs( ͡🔥 ͜ʖ ͡🔥): {len(CMD_LIST)}"""
+In Case Any Problem @savage_team_userbot \nTottal Plugs( ͡🔥 ͜ʖ ͡🔥): {len(CMD_LIST)}"""
     await event.edit(message=ho, buttons=buttons)
 
 
@@ -624,13 +624,13 @@ def lightnings_menu_for_help(b_lac_krish, lightning_plugs, lightning_lol):
         ] + [
             (
                 custom.Button.inline(
-                    "🗡яιgнт ρℓυgιи", data="{}_prev({})".format(lightning_lol, lightning_plugins_pages)
+                    "◀️ ᏰᎯᏣᏦ", data="{}_prev({})".format(lightning_lol, lightning_plugins_pages)
                 ),
                # Thanks To Friday For This Idea
-               custom.Button.inline("〽️Stats〽️", data="stta"
+               custom.Button.inline("◤✞ 𝐒𝐓𝐀𝐓𝐒 ✞◥", data="stta"
                ),
                custom.Button.inline(
-                    "ℓєfт ρℓυgιи ", data="{}_next({})".format(lightning_lol, lightning_plugins_pages)
+                    "ᏁᏋﾒᎿ ▶️", data="{}_next({})".format(lightning_lol, lightning_plugins_pages)
                 ),
                 
             )
