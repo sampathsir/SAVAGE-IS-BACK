@@ -204,7 +204,7 @@ else:
 
 LIGHTNING_BOT_PIC = os.environ.get("LIGHTNING_BOT_PIC", None)
 if LIGHTNING_BOT_PIC is None:
-    LIGHTNING_WARNING = "https://telegra.ph/file/07d55d71944a852ac6d5e.jpg"
+    LIGHTNING_WARNING = "https://telegra.ph/file/3c449daafde7cb90e2da7.jpg"
 else:
     LIGHTNING_WARNING = LIGHTNING_BOT_PIC
 
@@ -313,7 +313,7 @@ async def lightning_pugins_query_hndlr(lightning):
            
            lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n{CMD_HELP[light_pulu_name]}"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot** ".format(light_pulu_name)
+           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot".format(light_pulu_name)
         
         else:
             lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
@@ -336,10 +336,10 @@ async def lightning_pugins_query_hndlr(lightning):
     else:
            lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot** ".format(light_pulu_name)
+           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot".format(light_pulu_name)
     lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
     lightning_is_best = lightning_help_strin 
-    lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot** ".format(light_pulu_name)    
+    lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot".format(light_pulu_name)    
     if len(lightning_is_best) >= 4096:
           keinshin = "`Wait.( ͡🔥 ͜ʖ ͡🔥)`"
           await lightning.answer(keinshin, cache_time=0, alert=True)
