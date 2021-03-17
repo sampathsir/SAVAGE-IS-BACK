@@ -26,20 +26,20 @@ class Config(object):
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
     BOT_HANDLER = os.environ.get("BOT_HANDLER", "^/")
-    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1434332284").split())
+    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1559064347").split())
     WHITELIST_USERS = set(
-        int(x) for x in os.environ.get("WHITELIST_USERS", "1311769691").split()
+        int(x) for x in os.environ.get("WHITELIST_USERS", "1559064347").split()
     )
     BLACKLIST_USERS = set(
-        int(x) for x in os.environ.get("BLACKLIST_USERS", "1434332284").split()
+        int(x) for x in os.environ.get("BLACKLIST_USERS", "1559064347").split()
     )
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1311769691").split())
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1559064347").split())
     SUPPORT_USERS = set(
-        int(x) for x in os.environ.get("SUPPORT_USERS", "909978158").split()
+        int(x) for x in os.environ.get("SUPPORT_USERS", "1559064347").split()
     )
-    BEST_USERS = set(int(x) for x in os.environ.get("BEST_USERS", "1421068194").split())
+    BEST_USERS = set(int(x) for x in os.environ.get("BEST_USERS", "1559064347").split())
     DEVLOPERS = set(
-        int(x) for x in os.environ.get("DEVLOPERS_USERS", "1311769691").split()
+        int(x) for x in os.environ.get("DEVLOPERS_USERS", "1559064347").split()
     )
     # custom vars
     CUSTOM_ALIVE = os.environ.get("CUSTOM_ALIVE", None)
@@ -79,13 +79,13 @@ class Config(object):
     NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD = int(
         os.environ.get("NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD", 10)
     )
-    EMOJI_TO_DISPLAY_IN_HELP = os.environ.get("EMOJI_TO_DISPLAY_IN_HELP", "⨴⨵")
+    EMOJI_TO_DISPLAY_IN_HELP = os.environ.get("EMOJI_TO_DISPLAY_IN_HELP", "🔥")
     SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS", None)
     G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001291663564))
     SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
     ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/KeinShin/Black-Lightning"
+        "UPSTREAM_REPO", "https://github.com/sameerpanthi/SAVAGE-IS-BACK"
     )
     ALIVE_PIC = os.environ.get(
         "ALIVE_IMAGE", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
