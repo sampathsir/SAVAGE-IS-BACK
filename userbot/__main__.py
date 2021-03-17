@@ -27,7 +27,7 @@ async def startup_log_all_done():
     try:
         await bot.send_message(
             TELE,
-            f"**Black Lightning has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
+            f"**𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
         )
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
@@ -58,9 +58,9 @@ for name in files:
         shortname = path1.stem
         load_module(shortname.replace(".py", ""))
 
-print("Lightning has been deployed! ")
+print("𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 has been deployed! ")
 
-print("Setting up Lightning")
+print("Setting up 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓")
 path = "userbot/plugins/assistant/*.py"
 files = glob.glob(path)
 for name in files:
@@ -77,10 +77,10 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
             path1 = Path(f.name)
             shortname = path1.stem
             load_assistant(shortname.replace(".py", ""))
-    sed.info("Black Lightning  Bot Have Been Installed Successfully !")
+    sed.info("𝐒𝐀𝐕𝐀𝐆𝐄  Bot Have Been Installed Successfully !")
 else:
-    sed.info("Black Lightning Has Been Installed Sucessfully !")
-    sed.info("You Can Visit @lightningsupport For Any Support Or Doubts")
+    sed.info("𝐒𝐀𝐕𝐀𝐆𝐄 BOT Has Been Installed Sucessfully !")
+    sed.info("You Can Visit @savage_team_userbot For Any Support Or Doubts")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
