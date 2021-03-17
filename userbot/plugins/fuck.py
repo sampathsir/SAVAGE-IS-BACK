@@ -31,7 +31,7 @@ async def _(event):
 
     await event.edit("fuk")
 
-    animation_chars = ["👉 fuck bolte      ✊️", "👉   fuck  ✊️", "👉  fuck✊️", "👉fuck✊️💦"]
+    animation_chars = ["👉      ✊️", "👉     ✊️", "👉  ✊️", "👉✊️💦"]
 
     for i in animation_ttl:
 
