@@ -221,7 +221,7 @@ async def inline_handler(lightning):
     builder = lightning.builder
     result = None
     query = lightning.text
-    if lightning.query.user_id == bot.uid and query.startswith("**Black") or query.startswith("Black"):
+    if lightning.query.user_id == bot.uid and query.startswith("**SAVAGE") or query.startswith("savage"):
         rev_text = query[::-1]
         buttons = lightnings_menu_for_help(0, CMD_LIST, "helpme")
         result = builder.article(
@@ -237,8 +237,7 @@ async def inline_handler(lightning):
             text=f"**How If Face Problem \n{LIGHTNINGUSER}** \nChoose Your Problem For Help ",
             buttons=[
                 [custom.Button.inline("Help", data="what?")],
-                [Button.url("Commands Not Working🥺", "https://t.me/lightningsupport")],
-                [Button.url("Help Article 🤓", "https://app.gitbook.com/@poxsisofficial/s/help/")],
+                [Button.url("Commands Not Working🥺", "https://t.me/savage_team_userbot")],
                 [
                     Button.url(
                 
@@ -337,10 +336,10 @@ async def lightning_pugins_query_hndlr(lightning):
     else:
            lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @lightningsupport** ".format(light_pulu_name)
+           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot** ".format(light_pulu_name)
     lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
     lightning_is_best = lightning_help_strin 
-    lightning_is_best += "\n\n**In Case Any Problem @lightningsupport** ".format(light_pulu_name)    
+    lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot** ".format(light_pulu_name)    
     if len(lightning_is_best) >= 4096:
           keinshin = "`Wait.( ͡🔥 ͜ʖ ͡🔥)`"
           await lightning.answer(keinshin, cache_time=0, alert=True)
