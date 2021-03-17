@@ -1,6 +1,7 @@
 {
-  "name": "SAVAGE BOT",
-  "description": "An advanced Telethon Userbot, from @keinshin",
+  "name": "𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓",              
+  "description": "The best userbot made by @SAMEER_795 🤗. Made with Love ❤️ And Phone And Hardwork and... Nhi aur kahi se to nhi bana😂...For Support Join @SAVAGE_TEAM_USERBOT",
+  
   "logo": "https://telegra.ph/file/d8d194c18562472a7c1f1.jpg",
   "keywords": [
    "telegram",
@@ -10,8 +11,8 @@
    "productivity"
   ],
   "repository": "https://github.com/sameerpanthi/SAVAGE-IS-BACK",
-  "website": "https://github.com/KeinShin/Black-Lightning",
-  "success_url": "https://t.me/blacklightningot",
+  "website": "https://github.com/sameerpanthi/SAVAGE-IS-BACK",
+  "success_url": "https://t.me/savage_team_userbot",
   "stack": "container",
   "env": {
    "ENV": {
@@ -32,7 +33,7 @@
     "value": ""
    },
    "STRING_SESSION": {
-    "description": "Get this value by running python3 telesetup.py locally or https://repl.it/@Anmol10H/Lightning-Userbot#main.py online.",
+    "description": "Get this value by running python3 telesetup.py on repl.it",
     "value": ""
    },  
    "CUSTOM_PMPERMIT": {
@@ -100,7 +101,7 @@
    "PLUGIN_CHANNEL": {
     "description": "Channel Where You Save Your Plugins",
     "value": "",
-    "required": true 
+    "required": false
    },
    "SUDO_USERS": {
     "description": "Users you want to give access to your bot. (Don't allow unknown people)",
@@ -132,16 +133,7 @@
     "value": "",
     "required": false
    },
-   "TG_GRUP": {
-    "description": "Telegram Grup Name Starts With @ like, @lightningsupport, If No Name Leave It Default. Required For Alive ",
-    "value": "Not Yet😁😁",
-    "required": true
-   }, 
-   "TG_CHANNEL": {
-    "description": "Telegram Channel  Starts With @ like @blacklightningot, If No Channel Leave It Default. Required For Alive ",
-    "value": "Not Yet😁😁",
-    "required": true
-   }, 
+   
    "SPAM": {
     "description": "Number of messages one can send in your PM before being approved. By default, it is 5.",
     "value": "5",
@@ -158,12 +150,12 @@
     "required": false
    },
    "ALIVE_PIC": {
-    "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
+    "description": "telegra.ph link to theimage you want as alive pic, leave blank for defualt pic",
     "value": "",
     "required": false
    },
    "PMPERMIT_PIC": {
-   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
+   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one! Leave blank for default pic",
    "value": "",
    "required": false
    },
