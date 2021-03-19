@@ -147,10 +147,10 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Promoting...`")
+    await promt.edit("`kr rha hu promote rukja`")
     user, rank = await get_user_from_event(promt)
     if not rank:
-        rank = "Black Lightning"  # Just in case.
+        rank = "PERO AADMI"  # Just in case.
     if user:
         pass
     else:
