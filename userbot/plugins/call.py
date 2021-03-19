@@ -37,7 +37,7 @@ async def _(event):
         "`Connecting To Telegram Headquarters...`",
         "`Call Connected.`",
         "`Telegram: Hello This is Telegram HQ. Who is this?`",
-        "`Me: Yo this is` [SAVAGE SUPPORT](t.me/SAVAGE_TEAM_USERBOT) ,`Please Connect me to my idiot bro SAMEER 😂`",
+        "`Me: Yo this is`  [SAVAGE SUPPORT](t.me/SAVAGE_TEAM_USERBOT)  ,`Please Connect me to my idiot bro  SAMEER 😂`",
         "`User Authorised.`",
         "`Calling SAMEER SUR`  `At +916969696969`",
         "`Private  Call Connected...`",
