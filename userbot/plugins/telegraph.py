@@ -15,7 +15,7 @@ r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)
 auth_url = r["auth_url"]
 
 
-@borg.on(lightning_cmd("tg (m|t) ?(.*)"))
+@borg.on(lightning_cmd("telegraph ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -30,7 +30,7 @@ async def _(event):
         Config.PLUGIN_CHANNEL,
         "Created New Telegraph account {} for the current session. \n**Do not give this url to anyone, even if they say they are from Telegram!**".format(
             auth_url
-        ),
+        ),                  
     )
     optional_title = event.pattern_match.group(2)
     if event.reply_to_msg_id:
@@ -59,7 +59,7 @@ async def _(event):
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
                 await event.edit(
-                    "Your Telegraph Link by Black Lightning https://telegra.ph{} ".format(
+                    "Your Telegraph Link by 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓 https://telegra.ph{} ".format(
                         media_urls[0], (ms + ms_two)
                     ),
                     link_preview=True,
