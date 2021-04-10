@@ -66,7 +66,7 @@ async def _(event):
     while True:
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
-        bio = f"📅 {DMY} | {DEFAULTUSERBIO} | ⌚️ {HM}"
+        bio = f"𝐋𝐄𝐆𝐄𝐍𝐃𝐑𝐘 𝐀𝐅 丂卂ᐯ卂ᘜ乇 𝐁𝐎𝐓"
         logger.info(bio)
         try:
             await borg(
