@@ -8,7 +8,7 @@ from ..utils import lightning_cmd
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 
 
-@borg.on(lightning_cmd(pattern="hbty$"))
+@borg.on(lightning_cmd(pattern="birthday$"))
 async def _(event):
     if event.fwd_from:
         return
