@@ -37,7 +37,7 @@ from userbot.utils import lightning_cmd, edit_or_reply
 from .. import LOGS, TEMP_DOWNLOAD_DIRECTORY
 
 
-@borg.on(lightning_cmd(pattern="userinfo(?: |$)(.*)"))
+@borg.on(lightning_cmd(pattern="info(?: |$)(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -285,7 +285,7 @@ async def get_user_from_event(event):
         except (TypeError, ValueError) as err:
             await event.edit(str(err))
             return None
-    return user_obj, extra
+    return user_obj, extra 
 
 
 async def ge(user, event):
