@@ -10,7 +10,7 @@ from userbot.utils import lightning_cmd
 
 LIGHTNING_ALV_IMG = os.environ.get("LIGHTNING_ALV_IMG", None)
 if LIGHTNING_ALV_IMG is None:
-    ALV_LIGHTNING = "https://telegra.ph/file/79fa9bd2a0fe0db81a215.jpg"
+    ALV_LIGHTNING = "https://telegra.ph/file/5a121317fed843d1cd3fc.mp4"
 else:
     ALV_LIGHTNING = LIGHTNING_ALV_IMG
 
