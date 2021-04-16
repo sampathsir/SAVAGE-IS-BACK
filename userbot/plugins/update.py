@@ -16,7 +16,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = "**The ßﾚαςκ ﾚïgh†ηïηg †** is up-to-date sur."
+BOT_IS_UP_TO_DATE = "**The savage bot †** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
@@ -142,7 +142,7 @@ async def deploy_start(tgbot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await asyncio.sleep(2)
     await message.edit(
-        "**Updated your `𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓` successfully sur!!!\nNow type `.ping` after 15-25 mins to check if I'm on**🚶😏"
+        "**Updated your `𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓` successfully sur!!!\nNow type `.ping` after 10-15 mins to check if I'm on**🚶😏"
     )
     await remote.push(refspec=refspec)
     await tgbot.disconnect()
