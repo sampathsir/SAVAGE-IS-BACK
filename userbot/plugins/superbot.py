@@ -7,7 +7,7 @@ import asyncio
 from userbot.utils import lightning_cmd
 from userbot import CMD_HELP
 
-@borg.on(lightning_cmd(pattern="supbot?(.*)"))
+@borg.on(lightning_cmd(pattern="superbot?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
