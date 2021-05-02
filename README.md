@@ -48,7 +48,7 @@ SAVAGE_BOT 🔥
 
 TAKE STRING FROM HERE -
 
-[![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://repl.it/@SenseiOfficial/String-Session-1)
+[![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@sameerpanthi/SAVAGE-BOT#main.py)
     
 -------------------------------------------------
 
