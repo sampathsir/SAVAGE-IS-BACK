@@ -72,10 +72,10 @@ async def unload(lightning):
     krish_blac = lightning.pattern_match["krish_blac"]
     try:
         remove_plugin(krish_blac)
-        await lightning.edit(f"Successfully unloaded {krish_blac}")
+        await lightning.edit(f"HᴀTᴀ DɪYᴀ Is Pʟᴜɢɢɪɴ Kᴏ SᴀᴠAɢᴇ ʙᴏᴛ sᴇ (Uɴʟᴏᴀᴅ)")
     except Exception as e:
         await lightning.edit(
-            "Successfully unloaded {krish_blac}\n{}".format(krish_blac, str(e))
+            "HᴀTᴀ DɪYᴀ Is Pʟᴜɢɢɪɴ Kᴏ SᴀᴠAɢᴇ ʙᴏᴛ sᴇ (Uɴʟᴏᴀᴅ)".format(krish_blac, str(e))
         )
 
 
@@ -90,7 +90,7 @@ async def load(lightning):
         except BaseException:
             pass
         load_module(krish_blac)
-        await lightning.edit(f"Successfully loaded {krish_blac}")
+        await lightning.edit(f"🤘Hɴ Bʜᴀɪʏᴀ Jɪ Yᴇ ᴘʟᴜɢɢɪɴ Iɴsᴛᴀʟʟ Hᴏ Gʏᴀ Bᴏᴛ Mᴇɪɴ😎")
     except Exception as e:
         await lightning.edit(
             f"Sorry,{krish_blac} can not be loaded\nbecause of the following error.\n{str(e)}"
@@ -194,17 +194,17 @@ if LIGHTNING_WARN is None:
     WARNING = (
     f"**{BOT_LIT}"
     f"** Im Here To Protect {LIGHTNINGUSER} Dont Under Estimate Me 😂😂  **\n\n"
-    f"**My Master {LIGHTNINGUSER} is Busy Right Now !** \n"
-    f"{LIGHTNINGUSER} Is Very Busy Why Came Please Lemme Know Choose Your Deasired Reason"
+    f"**My Master {LIGHTNINGUSER} is Busy Right Now 😗!** \n"
+    f"{LIGHTNINGUSER} Is Very Busy Why Came Please Lemme Know Choose Your Deasired Reason😅"
     f"**Btw Dont Spam Or Get Banned** 😂 \n\n"
-    f"**Choose Any Reason Then Get Lost**\n"
+    f"**Choose Any Reason Then Get Lost😎**\n"
 )
 else:
     WARNING = LIGHTNING_WARN
 
 LIGHTNING_BOT_PIC = os.environ.get("LIGHTNING_BOT_PIC", None)
 if LIGHTNING_BOT_PIC is None:
-    LIGHTNING_WARNING = "https://telegra.ph/file/3c449daafde7cb90e2da7.jpg"
+    LIGHTNING_WARNING = "https://telegra.ph/file/3d0acf2f0b5fd015d3b40.jpg"
 else:
     LIGHTNING_WARNING = LIGHTNING_BOT_PIC
 
@@ -242,7 +242,7 @@ async def inline_handler(lightning):
                     Button.url(
                 
                     "Want To Learn CMDS😅",
-                    "https://t.me/savage_team_userbot" ,
+                    "https://t.me/savage_userbot" ,
                     )
                 ], 
             ],
@@ -313,7 +313,7 @@ async def lightning_pugins_query_hndlr(lightning):
            
            lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n{CMD_HELP[light_pulu_name]}"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot".format(light_pulu_name)
+           lightning_is_best += "\n\n**In Case Any Problem @savage_userbot".format(light_pulu_name)
         
         else:
             lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
@@ -329,17 +329,17 @@ async def lightning_pugins_query_hndlr(lightning):
     if light_pulu_name in CMD_LIST:
                 lightning_help_strin = "Commands found in {}:\n".format(light_pulu_name)
                 for i in CMD_LIST[light_pulu_name]:
-                    lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n `{CMD_LIST[light_pulu_name]}\n`**Details**- Not Yet😅😅\n\n**Ask at @savage_team_userbot"
+                    lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n `{CMD_LIST[light_pulu_name]}\n`**Details**- Not Yet😅😅\n\n**Ask at @savage_userbot"
                     lightning_help_strin += "\n    " + i
                     lightning_help_strin += "\n"
                 
     else:
-           lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
+           lightning_help_strin  = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_userbot"
            lightning_is_best = lightning_help_strin 
-           lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot".format(light_pulu_name)
-    lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_team_userbot"
+           lightning_is_best += "\n\n**In Case Any Problem @savage_userbot".format(light_pulu_name)
+    lightning_help_strin = f"**🔺 NAME 🔺 :** `{light_pulu_name}` \n\n`{CMD_LIST[light_pulu_name]}`\n**Details** - Not Yet😅😅\n\n**Ask at @savage_userbot"
     lightning_is_best = lightning_help_strin 
-    lightning_is_best += "\n\n**In Case Any Problem @savage_team_userbot".format(light_pulu_name)    
+    lightning_is_best += "\n\n**In Case Any Problem @savage_userbot".format(light_pulu_name)    
     if len(lightning_is_best) >= 4096:
           keinshin = "`Wait.( ͡🔥 ͜ʖ ͡🔥)`"
           await lightning.answer(keinshin, cache_time=0, alert=True)
