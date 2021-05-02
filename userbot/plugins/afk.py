@@ -54,7 +54,7 @@ async def set_not_afk(event):
                 event.chat_id,
                 "Please set `PRIVATE_GROUP_BOT_API_ID` "
                 + "for the proper functioning of afk functionality "
-                + "Ask In @savage_team_bot Chat grp to get help..\n\n `{}`".format(
+                + "Ask In @savage_userbot Chat grp to get help..\n\n `{}`".format(
                     str(e)
                 ),
                 reply_to=event.message.id,
@@ -119,17 +119,17 @@ async def on_afk(event):
         #           afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"**Hey!! My master is currently offline... Since when**?\n**For** `{total_afk_time}` "
+            f"**HᴇY!! Mʏ MᴀsTᴇʀ Is CᴜʀRᴇɴᴛʟʏ OғғʟɪNᴇ 😗.. Hᴇ/Sʜᴇ ɪs Nᴏᴛ FᴜʀsᴀTɪʏᴀ ʟɪKᴇ ᴜ 😂. Lᴇᴀᴠᴇ ᴜʀ ᴍsɢ ʜᴇʀᴇ ..Wʜᴇɴ ᴍʏ MᴀsTᴇʀ Is ɴᴏᴛ Bᴜsʏ ..ʜᴇ/sʜᴇ Wɪʟʟ Rᴇᴘʟʏ ᴜ.\n Mʏ MᴀSᴛᴇʀ ɪs OғғLɪɴᴇ SɪNᴄᴇ ᴡHᴇɴ? Yᴏᴜ ᴀSᴋ ?\n**FᴏR** `{total_afk_time}` "
             + f"\n\n__Reason__ :-\n**{reason}**"
             if reason
-            else f"**Heyy!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} .__\n\nWhen will I be back? Soon __Whenever I feel like coming back__🤧🚶🚶  "
+            else **HᴇY!! Mʏ MᴀsTᴇʀ Is CᴜʀRᴇɴᴛʟʏ OғғʟɪNᴇ 😗.. Hᴇ/Sʜᴇ ɪs Nᴏᴛ FᴜʀsᴀTɪʏᴀ ʟɪKᴇ ᴜ 😂. Lᴇᴀᴠᴇ ᴜʀ ᴍsɢ ʜᴇʀᴇ ..Wʜᴇɴ ᴍʏ MᴀsTᴇʀ Is ɴᴏᴛ Bᴜsʏ ..ʜᴇ/sʜᴇ Wɪʟʟ Rᴇᴘʟʏ ᴜ.\n Mʏ MᴀSᴛᴇʀ ɪs OғғLɪɴᴇ SɪNᴄᴇ ᴡHᴇɴ? Yᴏᴜ ᴀSᴋ ?\n**FᴏR** `{total_afk_time}`💥😎 "
+            
         )
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
             await last_afk_message[event.chat_id].delete()  # pylint:disable=E0602
         last_afk_message[event.chat_id] = msg  # pylint:disable=E0602
-
 
 @borg.on(lightning_cmd(pattern=r"afk ?(.*)", outgoing=True))  # pylint:disable=E0602
 async def _(event):
