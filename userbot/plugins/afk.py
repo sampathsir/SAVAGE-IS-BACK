@@ -119,10 +119,10 @@ async def on_afk(event):
         #           afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"**HᴇY!! Mʏ MᴀsTᴇʀ Is CᴜʀRᴇɴᴛʟʏ OғғʟɪNᴇ 😗.. Hᴇ/Sʜᴇ ɪs Nᴏᴛ FᴜʀsᴀTɪʏᴀ ʟɪKᴇ ᴜ 😂. Lᴇᴀᴠᴇ ᴜʀ ᴍsɢ ʜᴇʀᴇ ..Wʜᴇɴ ᴍʏ MᴀsTᴇʀ Is ɴᴏᴛ Bᴜsʏ ..ʜᴇ/sʜᴇ Wɪʟʟ Rᴇᴘʟʏ ᴜ.\n Mʏ MᴀSᴛᴇʀ ɪs OғғLɪɴᴇ SɪNᴄᴇ ᴡHᴇɴ? Yᴏᴜ ᴀSᴋ ?\n**FᴏR** `{total_afk_time}` "
+            f"HᴇY!! Mʏ MᴀsTᴇʀ Is CᴜʀRᴇɴᴛʟʏ OғғʟɪNᴇ 😗.. Hᴇ/Sʜᴇ ɪs Nᴏᴛ FᴜʀsᴀTɪʏᴀ ʟɪKᴇ ᴜ 😂. Lᴇᴀᴠᴇ ᴜʀ ᴍsɢ ʜᴇʀᴇ ..Wʜᴇɴ ᴍʏ MᴀsTᴇʀ Is ɴᴏᴛ Bᴜsʏ ..ʜᴇ/sʜᴇ Wɪʟʟ Rᴇᴘʟʏ ᴜ.\n Mʏ MᴀSᴛᴇʀ ɪs OғғLɪɴᴇ SɪNᴄᴇ ᴡHᴇɴ? Yᴏᴜ ᴀSᴋ ?\n**FᴏR** `{total_afk_time}`😗"
             + f"\n\n__Reason__ :-\n**{reason}**"
             if reason
-            else **HᴇY!! Mʏ MᴀsTᴇʀ Is CᴜʀRᴇɴᴛʟʏ OғғʟɪNᴇ 😗.. Hᴇ/Sʜᴇ ɪs Nᴏᴛ FᴜʀsᴀTɪʏᴀ ʟɪKᴇ ᴜ 😂. Lᴇᴀᴠᴇ ᴜʀ ᴍsɢ ʜᴇʀᴇ ..Wʜᴇɴ ᴍʏ MᴀsTᴇʀ Is ɴᴏᴛ Bᴜsʏ ..ʜᴇ/sʜᴇ Wɪʟʟ Rᴇᴘʟʏ ᴜ.\n Mʏ MᴀSᴛᴇʀ ɪs OғғLɪɴᴇ SɪNᴄᴇ ᴡHᴇɴ? Yᴏᴜ ᴀSᴋ ?\n**FᴏR** `{total_afk_time}`💥😎 "
+            else "**HᴇY!! Mʏ MᴀsTᴇʀ Is CᴜʀRᴇɴᴛʟʏ OғғʟɪNᴇ 😗.. Hᴇ/Sʜᴇ ɪs Nᴏᴛ FᴜʀsᴀTɪʏᴀ ʟɪKᴇ ᴜ 😂. Lᴇᴀᴠᴇ ᴜʀ ᴍsɢ ʜᴇʀᴇ ..Wʜᴇɴ ᴍʏ MᴀsTᴇʀ Is ɴᴏᴛ Bᴜsʏ ..ʜᴇ/sʜᴇ Wɪʟʟ Rᴇᴘʟʏ ᴜ.\n Mʏ MᴀSᴛᴇʀ ɪs OғғLɪɴᴇ SɪNᴄᴇ ᴡHᴇɴ? Yᴏᴜ ᴀSᴋ ?\n**FᴏR** `{total_afk_time}`💥😎"
             
         )
         msg = await event.reply(message_to_reply)
