@@ -50,3 +50,8 @@ TAKE STRING FROM HERE -
 [![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://repl.it/@SenseiOfficial/String-Session-1)
     
 -------------------------------------------------
+
+
+CREIDTS -
+
+# [BLACK LIGHTNING BOT](https://github.com/Raiden-Devs/Black-Lightning)
