@@ -40,7 +40,7 @@ async def cmd_list(event):
             else:
                 await event.edit("`Wait Checking..`")
                 await asyncio.sleep(2)
-                await event.edit(input_str + "___Aʀᴇ CʜᴀCʜᴀ DɪMᴀɢ KᴀHᴀ Hᴇ AᴀPᴋᴀ ? Yᴇ ᴋᴏI Pʟᴜɢɢɪɴ ʜɪ Nʜɪ ʜᴇ__")
+                await event.edit(input_str + "_________Aʀᴇ CʜᴀCʜᴀ DɪMᴀɢ KᴀHᴀ Hᴇ AᴀPᴋᴀ ? Yᴇ ᴋᴏI Pʟᴜɢɪɴ ʜɪ Nʜɪ ʜᴇ__")
         else:
             light_help_strin = """**SᴀVᴀɢᴇ UsᴇRʙᴏᴛ HᴇRᴇ's Wɪᴛʜ Dᴇᴛᴀɪʟᴇᴅ Hᴇʟᴘ Fᴏʀ Aʟʟ ᴄᴍɴᴅs** 😉😉 !"""
             results = await bot.inline_query(  # pylint:disable=E0602
